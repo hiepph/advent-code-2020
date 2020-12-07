@@ -35,3 +35,5 @@
               (reduce + (vals bag))
               (map (fn [[child-k v]]
                      (* v (count-bags child-k))) bag)))))
+
+(count-bags "shiny gold")
